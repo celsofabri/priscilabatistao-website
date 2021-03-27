@@ -10,7 +10,7 @@
 
 <script>
 
-  import Logo from '../Logo';
+  import Logo from '@/components/Logo';
 
   export default {
     name: 'Header',
