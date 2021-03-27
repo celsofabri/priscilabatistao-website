@@ -3,6 +3,7 @@
 
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
     <g-image alt="Example image" src="~/favicon.png" width="135" />
+    <Header />
 
     <h1>Hello, world!</h1>
 
@@ -19,9 +20,14 @@
 </template>
 
 <script>
+  import Header from '../components/Header';
+
 export default {
   metaInfo: {
     title: 'Hello, world!'
+  },
+  components: {
+    Header
   }
 }
 </script>
