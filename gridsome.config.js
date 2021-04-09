@@ -6,5 +6,12 @@
 
 module.exports = {
   siteName: 'Gridsome',
-  plugins: []
+  plugins: [
+    {
+      use: 'gridsome-plugin-sass-resources-loader',
+      options: {
+        resources: ['@/assets/global/tokens.scss', '@/assets/global/styles.scss'],
+      }
+    }
+  ]
 }

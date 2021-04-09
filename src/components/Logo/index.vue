@@ -2,7 +2,7 @@
 
   <h1 class="logo">
     <a href="#" title="Priscila Batistão">
-      Priscila Batistão
+      <img src="@/assets/images/logo.svg" alt="Priscila Batistão - Concept Photographer & Designer"/>
     </a>
   </h1>
 
