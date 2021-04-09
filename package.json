@@ -38,6 +38,11 @@
     "singleQuote": true,
     "trailingComma": "none"
   },
+  "lint-staged": {
+    "**/*.{js,jsx,vue,ts,tsx,json,css,md}": [
+      "npm run format"
+    ]
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"

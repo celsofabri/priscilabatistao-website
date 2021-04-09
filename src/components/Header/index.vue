@@ -7,13 +7,13 @@
 </template>
 
 <script>
-import Logo from "@/components/Logo";
+import Logo from '@/components/Logo';
 
 export default {
-  name: "Header",
+  name: 'Header',
   components: {
-    Logo,
-  },
+    Logo
+  }
 };
 </script>
 
