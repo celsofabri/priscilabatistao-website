@@ -1,0 +1,45 @@
+.menu {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  margin: 0;
+  padding: 60px;
+  text-align: right;
+  list-style-type: none;
+
+  &__item {
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    a {
+      position: relative;
+      display: inline-block;
+      color: #fff;
+      text-decoration: none;
+      transition: all .4s ease-out;
+
+      &:before {
+        position: absolute;
+        top: 0;
+        left: -80px;
+        opacity: 0;
+        visibility: hidden;
+        transition: all .4s ease-out;
+        content: '';
+      }
+
+      &:hover {
+        color: $yellow400;
+
+        &:before {
+          left: -60px;
+          opacity: 1;
+          visibility: visible;
+          content: '/';
+        }
+      }
+    }
+  }
+}

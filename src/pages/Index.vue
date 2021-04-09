@@ -1,17 +1,18 @@
 <template>
-  <Header />
+  <div>
+    <Header />
+    <Menu />
+  </div>
 </template>
 
 <script>
 import Header from '@/components/Header';
+import Menu from '@/components/Menu';
 
 export default {
   components: {
-    Header
+    Header,
+    Menu
   }
 }
 </script>
-
-<style lang="scss" scoped>
-
-</style>

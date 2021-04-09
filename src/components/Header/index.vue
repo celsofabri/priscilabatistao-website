@@ -1,5 +1,4 @@
 <template>
-
   <header class="header">
     <div class="wrap">
       <Logo />
