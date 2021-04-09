@@ -16,11 +16,11 @@
 </template>
 
 <script>
-  export default {
-    name: 'Menu'
-  }
+export default {
+  name: "Menu",
+};
 </script>
 
 <style lang="scss">
-  @import '@/components/Menu/menu.scss';
+@import "@/components/Menu/menu.scss";
 </style>

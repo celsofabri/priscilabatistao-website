@@ -2,6 +2,7 @@
   "name": "priscilabatistao",
   "private": true,
   "scripts": {
+    "format": "prettier --write \"**/*.{js,jsx,vue,ts,tsx,json,css,md}\"",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
     "build": "gridsome build"
@@ -12,7 +13,39 @@
     "typeface-poppins": "^1.1.13"
   },
   "devDependencies": {
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "lint-staged": "^10.5.4",
     "node-sass": "^5.0.0",
+    "prettier": "^2.2.1",
     "sass-loader": "^10.1.1"
+  },
+  "eslintConfig": {
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": [
+        "error"
+      ]
+    }
+  },
+  "prettier": {
+    "printWidth": 70,
+    "useTabs": false,
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "none"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,vue,ts,tsx,json,css,md}": [
+      "npm run format"
+    ]
   }
 }

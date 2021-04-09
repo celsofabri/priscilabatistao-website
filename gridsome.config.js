@@ -5,13 +5,16 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Priscila Batistão',
+  siteName: "Priscila Batistão",
   plugins: [
     {
-      use: 'gridsome-plugin-sass-resources-loader',
+      use: "gridsome-plugin-sass-resources-loader",
       options: {
-        resources: ['@/assets/global/tokens.scss', '@/assets/global/styles.scss'],
-      }
-    }
-  ]
-}
+        resources: [
+          "@/assets/global/tokens.scss",
+          "@/assets/global/styles.scss",
+        ],
+      },
+    },
+  ],
+};
