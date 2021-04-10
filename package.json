@@ -10,7 +10,8 @@
   "dependencies": {
     "gridsome": "^0.7.0",
     "gridsome-plugin-sass-resources-loader": "^0.0.3",
-    "typeface-poppins": "^1.1.13"
+    "typeface-poppins": "^1.1.13",
+    "vue-fragment": "^1.5.2"
   },
   "devDependencies": {
     "eslint-config-prettier": "^8.1.0",
@@ -47,10 +48,5 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  },
-  "lint-staged": {
-    "**/*.{js,jsx,vue,ts,tsx,json,css,md}": [
-      "npm run format"
-    ]
   }
 }

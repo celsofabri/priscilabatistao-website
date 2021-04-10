@@ -1,12 +1,15 @@
 <template>
-  <h1 class="logo">
-    <a href="#" title="Priscila Batistão">
-      <img
-        src="@/assets/images/logo.svg"
-        alt="Priscila Batistão - Concept Photographer & Designer"
-      />
-    </a>
-  </h1>
+  <fragment>
+    <h1 class="logo">
+      <a href="#" title="Priscila Batistão">
+        <img
+          src="@/assets/images/logo.svg"
+          alt="Priscila Batistão - Concept Photographer & Designer"
+        />
+      </a>
+    </h1>
+    <p>Concept Photographer & Design</p>
+  </fragment>
 </template>
 
 <script>
@@ -16,9 +19,5 @@ export default {
 </script>
 
 <style scoped>
-.logo {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
+@import './style.scss';
 </style>

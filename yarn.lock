@@ -4840,11 +4840,6 @@ human-signals@^1.1.1:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
   integrity sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
 
-husky@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-6.0.0.tgz#810f11869adf51604c32ea577edbc377d7f9319e"
-  integrity sha512-SQS2gDTB7tBN486QSoKPKQItZw97BMOd+Kdb6ghfpBc0yXyzrddI0oDV5MkDAbuB4X2mO3/nj60TRMcYxwzZeQ==
-
 iconv-lite@0.4.24:
   version "0.4.24"
   resolved "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz"
@@ -9382,6 +9377,11 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.npmjs.org/vm-browserify/-/vm-browserify-1.1.2.tgz"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
+
+vue-fragment@^1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/vue-fragment/-/vue-fragment-1.5.2.tgz#310017170c564c4aad95da14c185c92c6784fd3c"
+  integrity sha512-KEW0gkeNOLJjtXN4jqJhTazez5jtrwimHkE5Few/VxblH4F9EcvJiEsahrV5kg5uKd5U8du4ORKS6QjGE0piYA==
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"

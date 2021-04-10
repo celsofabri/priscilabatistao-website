@@ -17,10 +17,6 @@ export default {
 };
 </script>
 
-<style scoped>
-.header {
-  display: block;
-  width: 100%;
-  padding: 10px 0;
-}
+<style lang="scss" scoped>
+@import './style.scss';
 </style>
