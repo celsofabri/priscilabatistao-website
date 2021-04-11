@@ -1,7 +1,6 @@
 <template>
   <fragment>
     <Header />
-    <Menu />
   </fragment>
 </template>
 
@@ -10,14 +9,14 @@ import Header from '@/components/Header';
 import Menu from '@/components/Menu';
 
 export default {
-  name: 'Homepage',
+  name: 'About',
   metaInfo: {
-    title: 'Priscila Batistão',
+    title: 'Sobre | Priscila Batistão',
     htmlAttrs: {
       lang: 'pt-BR'
     },
     bodyAttrs: {
-      class: 'home'
+      class: 'about'
     }
   },
   components: {
