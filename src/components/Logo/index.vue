@@ -1,14 +1,16 @@
 <template>
   <fragment>
-    <h1 class="logo">
-      <g-link to="/" title="Priscila Batistão">
-        <img
-          src="@/assets/images/logo.svg"
-          alt="Priscila Batistão - Concept Photographer & Designer"
-        />
-      </g-link>
-    </h1>
-    <p>Concept Photographer & Design</p>
+    <div class="logo">
+      <h1 class="logo__icon">
+        <g-link to="/" title="Priscila Batistão">
+          <img
+            src="@/assets/images/logo.svg"
+            alt="Priscila Batistão - Concept Photographer & Designer"
+          />
+        </g-link>
+      </h1>
+      <p>Concept Photographer & Design</p>
+    </div>
   </fragment>
 </template>
 
@@ -18,6 +20,6 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 @import './style.scss';
 </style>
