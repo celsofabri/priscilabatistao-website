@@ -1,5 +1,6 @@
 .burger {
   position: relative;
+  z-index: 101;
   display: inline-block;
   width: 60px;
   height: 40px;
@@ -41,6 +42,30 @@
     width: 50%;
     height: 5px;
     background-color: $yellow400;
-    transition: all 0.4s ease-out;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &--active {
+    .burger__stripe {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    &:before {
+      transform: rotate(45deg);
+      transform-origin: 7px 9px;
+    }
+
+    &:after {
+      transform: rotate(-45deg);
+      transform-origin: 9px -4px;
+    }
+  }
+}
+
+.home {
+  .burger {
+    display: none;
   }
 }

@@ -12,33 +12,34 @@
     font-size: 70px;
     font-weight: 700;
     text-transform: uppercase;
+  }
 
-    a {
-      position: relative;
-      display: inline-block;
-      color: #fff;
-      text-decoration: none;
+  &__anchor {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.4s ease-out;
+    -webkit-text-stroke: 2px $gray300;
+
+    &:before {
+      position: absolute;
+      top: 0;
+      left: -80px;
+      opacity: 0;
+      visibility: hidden;
       transition: all 0.4s ease-out;
+      content: '';
+    }
+
+    &:hover {
+      color: $yellow400;
 
       &:before {
-        position: absolute;
-        top: 0;
-        left: -80px;
-        opacity: 0;
-        visibility: hidden;
-        transition: all 0.4s ease-out;
-        content: '';
-      }
-
-      &:hover {
-        color: $yellow400;
-
-        &:before {
-          left: -60px;
-          opacity: 1;
-          visibility: visible;
-          content: '/';
-        }
+        left: -60px;
+        opacity: 1;
+        visibility: visible;
+        content: '/';
       }
     }
   }

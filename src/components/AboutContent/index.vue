@@ -26,6 +26,13 @@
           id leo. A erat nam at lectus urna duis convallis convallis.
         </p>
       </div>
+      <g-link
+        to="/contato"
+        title="Contato"
+        class="btn btn__cta btn__cta--link"
+      >
+        Entre em contato
+      </g-link>
     </div>
     <div class="cover">
       <img

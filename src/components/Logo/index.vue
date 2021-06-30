@@ -1,5 +1,5 @@
 <template>
-  <fragment>
+  <div>
     <div class="logo">
       <h1 class="logo__icon">
         <g-link to="/" title="Priscila Batistão">
@@ -11,7 +11,7 @@
       </h1>
       <p>Concept Photographer & Design</p>
     </div>
-  </fragment>
+  </div>
 </template>
 
 <script>

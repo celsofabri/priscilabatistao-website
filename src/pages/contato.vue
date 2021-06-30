@@ -1,14 +1,14 @@
 <template>
   <div>
     <Header />
-    <AboutContent />
+    <ContactContent />
   </div>
 </template>
 
 <script>
 import Header from '@/components/Header';
 import Menu from '@/components/Menu';
-import AboutContent from '@/components/AboutContent';
+import ContactContent from '@/components/ContactContent';
 
 export default {
   name: 'About',
@@ -24,7 +24,7 @@ export default {
   components: {
     Header,
     Menu,
-    AboutContent
+    ContactContent
   }
 };
 </script>

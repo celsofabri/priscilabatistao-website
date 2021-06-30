@@ -1,8 +1,8 @@
 <template>
-  <fragment>
-    <Header />
+  <div>
+    <Header is-open="isOpen" />
     <Menu />
-  </fragment>
+  </div>
 </template>
 
 <script>
@@ -23,6 +23,12 @@ export default {
   components: {
     Header,
     Menu
+  },
+  props: {
+    isOpen: {
+      type: Boolean,
+      default: false
+    }
   }
 };
 </script>

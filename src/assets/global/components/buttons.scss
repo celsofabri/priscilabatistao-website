@@ -1,0 +1,24 @@
+.btn {
+  display: inline-block;
+  padding: 12px 72px;
+  font-size: 18px;
+  font-weight: 700;
+  color: $gray300;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 30px;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+
+  &__cta {
+    background-color: $yellow400;
+
+    &:hover {
+      background-color: darken($yellow400, 10%);
+    }
+
+    &--link {
+      text-decoration: none;
+    }
+  }
+}
