@@ -12,4 +12,18 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  @media screen and (max-width: 460px) {
+    position: static;
+    background-color: $gray300;
+  }
+}
+
+.home {
+  .header {
+    @media screen and (max-width: 460px) {
+      position: fixed;
+      background-color: transparent;
+    }
+  }
 }

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header is-open="isOpen" />
+    <Header />
     <Menu />
   </div>
 </template>
@@ -23,12 +23,6 @@ export default {
   components: {
     Header,
     Menu
-  },
-  props: {
-    isOpen: {
-      type: Boolean,
-      default: false
-    }
   }
 };
 </script>

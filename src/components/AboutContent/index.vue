@@ -13,26 +13,29 @@
           Hello,
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna
-          aliqua. Nunc sed augue lacus viverra vitae congue eu.
-          Sagittis purus sit amet volutpat consequat mauris nunc
-          congue. Elit duis tristique sollicitudin nibh sit amet
-          commodo nulla facilisi. Augue lacus viverra vitae congue eu.
-          Accumsan sit amet nulla facilisi morbi tempus iaculis urna.
-          Ut placerat orci nulla pellentesque dignissim enim sit amet.
-          Risus pretium quam vulputate dignissim suspendisse in est
-          ante in. Nibh ipsum consequat nisl vel pretium lectus quam
-          id leo. A erat nam at lectus urna duis convallis convallis.
+          Meu nome é <strong>Priscila Batistão</strong>, sou formada
+          em fotografia pela Universidade Tuiuti do Paraná e
+          atualmente estudante de Design pela Universidade Tecnológica
+          Federal do Paraná. Atuo como fotógrafa desde 2013, com
+          experiência em fotografias de estúdio e em ambientes
+          abertos, edição e tratamento de imagens.
         </p>
       </div>
-      <g-link
+      <!-- <g-link
         to="/contato"
         title="Contato"
         class="btn btn__cta btn__cta--link"
       >
         Entre em contato
-      </g-link>
+      </g-link> -->
+      <a
+        href="mailto:priscila.batistao@hotmail.com"
+        title="Contato"
+        target="_blank"
+        class="btn btn__cta btn__cta--link"
+      >
+        Entre em contato
+      </a>
     </div>
     <div class="cover">
       <img

@@ -5,7 +5,7 @@
         >Sobre</g-link
       >
     </li>
-    <li class="menu__item">
+    <!-- <li class="menu__item">
       <g-link to="/fotografia" title="Fotografia" class="menu__anchor"
         >Fotografia</g-link
       >
@@ -14,11 +14,19 @@
       <g-link to="/design" title="Design" class="menu__anchor"
         >Design</g-link
       >
-    </li>
+    </li> -->
     <li class="menu__item">
-      <g-link to="/contato" title="Contato" class="menu__anchor"
+      <!-- <g-link to="/contato" title="Contato" class="menu__anchor"
         >Contato</g-link
+      > -->
+      <a
+        href="mailto:priscila.batistao@hotmail.com"
+        title="Contato"
+        target="_blank"
+        class="menu__anchor"
       >
+        Contato
+      </a>
     </li>
   </ul>
 </template>
