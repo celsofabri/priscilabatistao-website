@@ -10,4 +10,4 @@
 
 <script src="./scripts.js" />
 
-<style src="./style.scss" lang="scss" scoped>
+<style src="./style.scss" lang="scss" scoped />
