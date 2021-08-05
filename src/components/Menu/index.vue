@@ -31,12 +31,6 @@
   </ul>
 </template>
 
-<script>
-export default {
-  name: 'Menu'
-};
-</script>
+<script src="./scripts.js" />
 
-<style lang="scss" scoped>
-@import './style.scss';
-</style>
+<style src="./style.scss" lang="scss" scoped />
