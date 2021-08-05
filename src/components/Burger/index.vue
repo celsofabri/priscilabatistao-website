@@ -9,23 +9,6 @@
   </button>
 </template>
 
-<script>
-export default {
-  name: 'Burger',
-  props: {
-    isActive: {
-      type: Boolean,
-      default: false
-    }
-  },
-  methods: {
-    handleMenu() {
-      this.$emit('menu-toggle');
-    }
-  }
-};
-</script>
+<script src="./scripts.js" />
 
-<style lang="scss">
-@import './style.scss';
-</style>
+<style src="./style.scss" lang="scss" />
