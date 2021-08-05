@@ -4,23 +4,6 @@
   </nav>
 </template>
 
-<script>
-import Menu from '@/components/Menu';
+<script src="./scripts.js" />
 
-export default {
-  name: 'MenuOverlay',
-  components: {
-    Menu
-  },
-  props: {
-    isActive: {
-      type: Boolean,
-      default: false
-    }
-  }
-};
-</script>
-
-<style lang="scss" scoped>
-@import './style.scss';
-</style>
+<style src="./style.scss" lang="scss" scoped />
