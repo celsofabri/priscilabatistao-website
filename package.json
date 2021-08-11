@@ -1,5 +1,5 @@
 {
-  "name": "priscilabatistao",
+  "name": "priscila-batistao",
   "private": true,
   "scripts": {
     "format": "prettier --write \"**/*.{js,jsx,vue,ts,tsx,json,css,md}\"",
